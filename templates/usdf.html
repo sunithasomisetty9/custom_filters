@@ -1,0 +1,31 @@
+{% load userdefinedfilters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user defined filters</title>
+</head>
+<body>
+        <center>
+            <h1>User defined filters</h1>
+
+            <h2>{{data}}</h2>
+
+            <h2>{{data|swap}}</h2>
+
+            <h2>{{data|remove:'a'}}</h2>
+
+            <h2>{{data|changecase}}</h2>
+
+            <h2>{{data|counting:'u'}}</h2>
+
+            <h2>{{fruits}}</h2>
+
+            <h2>{{fruits|sorting}}</h2>
+
+
+
+        </center>
+</body>
+</html>
